@@ -1,6 +1,6 @@
 function ListOfSubPages() {
   return (
-    <div className="text-white flex">
+    <div className="text-white flex gap-16 list-[none] text-xl">
       <li>iMac</li>
       <li>iPhone</li>
       <li>iPad</li>
