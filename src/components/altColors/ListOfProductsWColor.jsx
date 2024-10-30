@@ -4,7 +4,7 @@ import oceanWatch from "@/imgs/ocean.png";
 import ProductWithColor from "@/components/altColors/ProductWithColor";
 function ListOfProductsWColors() {
   return (
-    <div className="flex gap-6 mt-12">
+    <div className="flex gap-6 mt-14">
       <ProductWithColor
         watchColor={mintWatch}
         altText="Watch in mint green color"

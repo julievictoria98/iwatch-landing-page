@@ -9,17 +9,23 @@ import ListOfDots from "@/components/colorDots/ListOfDots";
 
 export default function Home() {
   return (
-    <div className="bg-blue-200 pr-12 pl-12 pb-12">
+    <div className="bg-blue-200 pr-16 pl-20 pb-20">
       <Header />
-      <main className="grid grid-cols-[1.5fr_1fr_0.1fr] items-center gap-y-2">
-        <HeroText />
-        <div className="row-span-2">
-          <Image src={navyWatch} alt="Navy watch" width={400} height={400} />
+      <main className="grid grid-cols-[1.5fr_1fr_0.1fr] gap-y-2 items-center">
+        <div>
+          <HeroText />
         </div>
+        <Image
+          className="w-3/4 row-span-2 "
+          src={navyWatch}
+          alt="Navy watch"
+          width={400}
+          height={400}
+        />
         <div className="col-start-3 row-span-2">
           <ListOfDots />
         </div>
-        <div className="col-start-1 ">
+        <div className="col-start-1 self-start">
           <Button buttonText="Buy Now" />
         </div>
         <div className="col-start-2">
