@@ -4,7 +4,9 @@ function ListOfSubPages() {
       <li>iMac</li>
       <li>iPhone</li>
       <li>iPad</li>
-      <li>iWatch</li>
+      <li className="rounded-full bg-white text-blue-200 pl-6 pr-6 pb-0.5 pt-0.5">
+        iWatch
+      </li>
       <li>Support</li>
     </div>
   );
