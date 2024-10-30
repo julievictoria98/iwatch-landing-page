@@ -3,7 +3,7 @@ import ListOfSubPages from "./ListOfSubPages";
 import SerachAndBasket from "./SearchAndBasket";
 function Nav() {
   return (
-    <div className="flex justify-between items-center pl-4 pr-4 pt-4">
+    <div className="flex justify-between items-center pt-4 mb-12">
       <FaApple size={50} color="white" />
       <ListOfSubPages />
       <SerachAndBasket />
